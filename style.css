@@ -668,6 +668,7 @@ body {
   color: #fff;
   padding: 60px 40px;
   font-family: Arial, sans-serif;
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%); /* slanted top */
 }
 
 .footer-container {

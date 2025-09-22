@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridgewaters Hotel - Rooms</title>
+  <link rel="stylesheet" href="rooms.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="Bridgewaters Logo">
+      <span>Bridgewaters Hotel</span>
+    </a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html" class="active">Rooms</a></li>
+        <li><a href="#">Events Centre</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button class="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- SIDEBAR (mobile) -->
+  <div class="sidebar">
+    <button class="close-btn">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rooms.html" class="active">Rooms</a></li>
+      <li><a href="#">Events Centre</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero-rooms" style="background-image: url('./swimming\ pool.jpg');">
+    <div class="hero-overlay">
+      <h1>Our Rooms</h1>
+    </div>
+  </section>
+
+  <!-- ROOMS SECTION -->
+  <section class="rooms-section">
+    <div class="rooms-container">
+
+      <!-- Sidebar -->
+      <aside class="rooms-sidebar">
+        <ul>
+          <li class="active" data-room="0">Deluxe Room</li>
+          <li data-room="1">Executive Suite</li>
+          <li data-room="2">Presidential Suite</li>
+          <li data-room="3">Family Room</li>
+        </ul>
+      </aside>
+
+
+
+      
+
+      <!-- Divider -->
+      <div class="rooms-divider"></div>
+
+      <!-- Content Slider -->
+      <div class="rooms-content">
+        <div class="rooms-slider">
+
+          <!-- DELUXE ROOM -->
+          <div class="room-item animate-on-scroll">
+            <div class="room-image">
+              <img src="./swimming pool.jpg" alt="Deluxe Room">
+            </div>
+            <div class="room-info">
+              <h2>Deluxe Room</h2>
+              <p>A spacious room designed with elegance and comfort in mind.</p>
+              <ul>
+                <li>King-sized bed</li>
+                <li>Modern bathroom</li>
+                <li>City view</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- EXECUTIVE SUITE -->
+          <div class="room-item animate-on-scroll">
+            <div class="room-image">
+              <img src="./event empty hall1.jpg" alt="Executive Suite">
+            </div>
+            <div class="room-info">
+              <h2>Executive Suite</h2>
+              <p>Perfect for business travelers, featuring a work desk and lounge.</p>
+              <ul>
+                <li>Spacious living area</li>
+                <li>Work desk</li>
+                <li>Premium facilities</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- PRESIDENTIAL SUITE -->
+          <div class="room-item animate-on-scroll">
+            <div class="room-image">
+              <img src="./eventcenter name.jpg" alt="Presidential Suite">
+            </div>
+            <div class="room-info">
+              <h2>Presidential Suite</h2>
+              <p>Our most luxurious offering with private lounge and exclusive service.</p>
+              <ul>
+                <li>Private lounge</li>
+                <li>Exclusive service</li>
+                <li>Panoramic views</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- FAMILY ROOM -->
+          <div class="room-item animate-on-scroll">
+            <div class="room-image">
+              <img src="./swimming pool.jpg" alt="Family Room">
+            </div>
+            <div class="room-info">
+              <h2>Family Room</h2>
+              <p>Ideal for families, featuring multiple beds and kid-friendly amenities.</p>
+              <ul>
+                <li>Two queen beds</li>
+                <li>Child-friendly facilities</li>
+                <li>Spacious layout</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- Masonry Image Gallery Section -->
+<section class="masonry-gallery">
+  <div class="masonry">
+    <img src="./swimming pool.jpg" alt="">
+    <img src="./event empty hall1.jpg" alt="">
+    <img src="./eventcenter decorated.jpg" alt="">
+    <img src="./event empty hall2.jpg" alt="">
+    <img src="./eventcenter name.jpg" alt="">
+    <img src="./event empty hall1.jpg" alt="">
+    <img src="./swimming pool.jpg" alt="">
+    <img src="./event empty hall1.jpg" alt="">
+    <img src="./event empty hall2.jpg" alt="">
+  </div>
+</section>
+
+
+<section class="mediterranean-section">
+  <h2>Full of light and overlooking the Mediterranean</h2>
+
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-item active"><img src="./swimming pool.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./event empty hall1.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./eventcenter name.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./event empty hall2.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./event empty hall1.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./swimming pool.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./event empty hall1.jpg" alt=""></div>
+    </div>
+
+    <!-- Number Navigation -->
+    <div class="carousel-nav">
+      <span data-index="0" class="active">1</span>
+      <span data-index="1">2</span>
+      <span data-index="2">3</span>
+      <span data-index="3">4</span>
+      <span data-index="4">5</span>
+      <span data-index="5">6</span>
+      <span data-index="6">7</span>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Logo & tagline -->
+    <div class="footer-col footer-logo">
+      <img src="images/logo.png" alt="Bridgewaters Hotel Logo">
+      <h2>Bridgewaters Hotel & Conference</h2>
+      <p>A serene escape into nature and comfort.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#events">Events Centre</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#dining">Dining</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-col">
+      <h3>Contact Info</h3>
+      <p><strong>Phone:</strong> +2348099090931, +2348038724725</p>
+      <p><strong>Address:</strong> No 2 Ebeano tunnel crossing road,<br> near Elim plaza, Enugu.</p>
+      <p><strong>Email:</strong> info@bridgewatershotel.com</p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+  <script src="rooms.js"></script>
+</body>
+</html>
