@@ -90,3 +90,52 @@ document.addEventListener("DOMContentLoaded", () => {
   // Start with first slide
   showSlide(0);
 });
+
+
+
+
+
+
+
+// Reusable Carousel Function
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const images = carousel.querySelectorAll('.carousel-images img');
+  const prevBtn = carousel.querySelector('.carousel-btn.prev');
+  const nextBtn = carousel.querySelector('.carousel-btn.next');
+  const dotsContainer = carousel.querySelector('.carousel-dots');
+  let currentIndex = 0;
+
+  // Create dots
+  images.forEach((_, index) => {
+    const dot = document.createElement('span');
+    if (index === 0) dot.classList.add('active');
+    dotsContainer.appendChild(dot);
+    dot.addEventListener('click', () => showSlide(index));
+  });
+
+  const dots = dotsContainer.querySelectorAll('span');
+
+  function showSlide(index) {
+    images[currentIndex].classList.remove('active');
+    dots[currentIndex].classList.remove('active');
+    currentIndex = (index + images.length) % images.length;
+    images[currentIndex].classList.add('active');
+    dots[currentIndex].classList.add('active');
+  }
+
+  prevBtn.addEventListener('click', () => showSlide(currentIndex - 1));
+  nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
+
+  // Auto slide
+  setInterval(() => showSlide(currentIndex + 1), 5000);
+});
+
+
+
+
+// Flip cards on click for amenities section
+document.querySelectorAll('.amenity-card').forEach(card => {
+  card.addEventListener('click', () => {
+    card.classList.toggle('flipped');
+  });
+});

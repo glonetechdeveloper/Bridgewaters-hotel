@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bridgewaters Hotel - Rooms</title>
-  <link rel="stylesheet" href="rooms.css">
+    <link rel="stylesheet" href="rooms.css">
+  <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
 
@@ -41,135 +42,177 @@
   </div>
 
   <!-- HERO -->
-  <section class="hero-rooms" style="background-image: url('./swimming\ pool.jpg');">
+  <section class="hero-rooms" style="background-image: url('./executive\ 1.jpg');">
     <div class="hero-overlay">
       <h1>Our Rooms</h1>
     </div>
   </section>
 
-  <!-- ROOMS SECTION -->
-  <section class="rooms-section">
-    <div class="rooms-container">
+  
+  <!-- Elegant Comfort Section -->
+<section class="rooms-section fade-up">
+  <div class="section-header">
+    <h2>Comfy & Thoughtfully Designed</h2>
+    <p>Discover our elegant rooms, crafted with timeless design, luxurious amenities, and serene surroundings.</p>
+  </div>
 
-      <!-- Sidebar -->
-      <aside class="rooms-sidebar">
-        <ul>
-          <li class="active" data-room="0">Deluxe Room</li>
-          <li data-room="1">Executive Suite</li>
-          <li data-room="2">Presidential Suite</li>
-          <li data-room="3">Family Room</li>
-        </ul>
-      </aside>
-
-
-
-      
-
-      <!-- Divider -->
-      <div class="rooms-divider"></div>
-
-      <!-- Content Slider -->
-      <div class="rooms-content">
-        <div class="rooms-slider">
-
-          <!-- DELUXE ROOM -->
-          <div class="room-item animate-on-scroll">
-            <div class="room-image">
-              <img src="./swimming pool.jpg" alt="Deluxe Room">
-            </div>
-            <div class="room-info">
-              <h2>Deluxe Room</h2>
-              <p>A spacious room designed with elegance and comfort in mind.</p>
-              <ul>
-                <li>King-sized bed</li>
-                <li>Modern bathroom</li>
-                <li>City view</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- EXECUTIVE SUITE -->
-          <div class="room-item animate-on-scroll">
-            <div class="room-image">
-              <img src="./event empty hall1.jpg" alt="Executive Suite">
-            </div>
-            <div class="room-info">
-              <h2>Executive Suite</h2>
-              <p>Perfect for business travelers, featuring a work desk and lounge.</p>
-              <ul>
-                <li>Spacious living area</li>
-                <li>Work desk</li>
-                <li>Premium facilities</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- PRESIDENTIAL SUITE -->
-          <div class="room-item animate-on-scroll">
-            <div class="room-image">
-              <img src="./eventcenter name.jpg" alt="Presidential Suite">
-            </div>
-            <div class="room-info">
-              <h2>Presidential Suite</h2>
-              <p>Our most luxurious offering with private lounge and exclusive service.</p>
-              <ul>
-                <li>Private lounge</li>
-                <li>Exclusive service</li>
-                <li>Panoramic views</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- FAMILY ROOM -->
-          <div class="room-item animate-on-scroll">
-            <div class="room-image">
-              <img src="./swimming pool.jpg" alt="Family Room">
-            </div>
-            <div class="room-info">
-              <h2>Family Room</h2>
-              <p>Ideal for families, featuring multiple beds and kid-friendly amenities.</p>
-              <ul>
-                <li>Two queen beds</li>
-                <li>Child-friendly facilities</li>
-                <li>Spacious layout</li>
-              </ul>
-            </div>
-          </div>
-
+  <div class="rooms-grid">
+    <!-- Room 1 -->
+    <div class="room-card">
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="./classic 1.jpg" class="active" alt="Room 1A">
+          <img src="./classic 2.jpg" alt="Room 1B">
+          <img src="./classic 3.jpg" alt="Room 1C">
         </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-info">
+        <h3>Standard Suite</h3>
+        <h3 id="roooms">Price: ₦60,000</h3>
+        <p>The Classic Room blends cozy charm with modern essentials, providing a warm, inviting space designed for comfort and relaxation.</p>
       </div>
     </div>
-  </section>
+
+    <!-- Room 2 -->
+    <div class="room-card">
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="./luxury 1.jpg" class="active" alt="Room 2A">
+          <img src="./luxury 2.jpg" alt="Room 2B">
+          <img src="./luxury 3.jpg" alt="Room 2C">
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-info">
+        <h3>Luxury Suite</h3>
+        <h3 id="roooms">Price: ₦70,000</h3>
+        <p>Our Superior Room offers a perfect balance of comfort and style, featuring elegant décor, thoughtful amenities, and a serene setting for a truly relaxing stay.</p>
+      </div>
+    </div>
+
+
+    <!-- Room 1 -->
+    <div class="room-card">
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="./executive 1.jpg" class="active" alt="Room 1A">
+          <img src="./executive 2.jpg" alt="Room 1B">
+          <img src="./executive 3.jpg" alt="Room 1C">
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-info">
+        <h3>Executive Suite</h3>
+        <h3 id="roooms">Price: ₦60,000</h3>
+        <p>The Classic Room blends cozy charm with modern essentials, providing a warm, inviting space designed for comfort and relaxation.</p>
+      </div>
+    </div>
+
+    <!-- Room 2 -->
+    <div class="room-card">
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="./executive premium 1.jpg" class="active" alt="Room 2A">
+          <img src="./executive premium 2.jpg" alt="Room 2B">
+          <!--img src="./superior 3.jpg" alt="Room 2C"-->
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-info">
+        <h3>Executive Premium Suite</h3>
+        <h3 id="roooms">Price: ₦70,000</h3>
+        <p>Our Superior Room offers a perfect balance of comfort and style, featuring elegant décor, thoughtful amenities, and a serene setting for a truly relaxing stay.</p>
+      </div>
+    </div>
+
+    <!-- Third room (centered) -->
+   <div class="rooms-grid ">
+     <div class="room-card">
+       <div class="carousel">
+        <div class="carousel-images">
+          <img src="./executive 1.jpg" class="active" alt="Room 3A">
+          <img src="./executive 2.jpg" alt="Room 3B">
+          <img src="./executive 3.jpg" alt="Room 3C">
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+        <div class="carousel-dots"></div>
+       </div>
+      <div class="room-info">
+        <h3>Royal Suite</h3>
+        <h3 id="roooms">Price: ₦80,000</h3>
+        <p>The Executive Suite combines modern elegance with refined comfort, offering generous space, stylish furnishings, and exclusive amenities for both business and leisure.</p>
+      </div>
+    </div>
+   </div>
+
+   
+
+  <!-- Third room (centered) -->
+   <div class="rooms-grid ">
+    <div class="room-card">
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="./king suite 1.jpg" class="active" alt="Room 4A">
+          <img src="./king suite 2.jpg" alt="Room 4B">
+          <!--img src="./presidential 3.jpg" alt="Room 4C"-->
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-info">
+        <h3>Kings Suite</h3>
+        <h3 id="roooms">Price: ₦160,000</h3>
+        <p>Our Presidential Suite redefines luxury with spacious interiors, elegant design, premium amenities, and breathtaking views—crafted for the ultimate comfort and exclusivity.</p>
+      </div>
+    </div>
+   </div>
+  </div>
+  
+
+  
+</section>
+
 
 
  <!-- Masonry Image Gallery Section -->
 <section class="masonry-gallery">
   <div class="masonry">
-    <img src="./swimming pool.jpg" alt="">
-    <img src="./event empty hall1.jpg" alt="">
-    <img src="./eventcenter decorated.jpg" alt="">
-    <img src="./event empty hall2.jpg" alt="">
-    <img src="./eventcenter name.jpg" alt="">
-    <img src="./event empty hall1.jpg" alt="">
-    <img src="./swimming pool.jpg" alt="">
-    <img src="./event empty hall1.jpg" alt="">
-    <img src="./event empty hall2.jpg" alt="">
+    <img src="./executive 1.jpg" alt="">
+    <img src="./executive 2.jpg" alt="">
+    <img src="./executive 3.jpg" alt="">
+    <img src="./executive premium 1.jpg" alt="">
+    <img src="./executive premium 2.jpg" alt="">
+    <img src="./king suite 1.jpg" alt="">
+    <img src="./king suite 2.jpg" alt="">
+    <img src="./luxury 1.jpg" alt="">
+    <img src="./luxury 2.jpg" alt="">
   </div>
 </section>
 
 
 <section class="mediterranean-section">
-  <h2>Full of light and overlooking the Mediterranean</h2>
+  <h2>Styled for your comfort</h2>
 
   <div class="carousel-container">
     <div class="carousel">
-      <div class="carousel-item active"><img src="./swimming pool.jpg" alt=""></div>
-      <div class="carousel-item"><img src="./event empty hall1.jpg" alt=""></div>
-      <div class="carousel-item"><img src="./eventcenter name.jpg" alt=""></div>
-      <div class="carousel-item"><img src="./event empty hall2.jpg" alt=""></div>
-      <div class="carousel-item"><img src="./event empty hall1.jpg" alt=""></div>
-      <div class="carousel-item"><img src="./swimming pool.jpg" alt=""></div>
-      <div class="carousel-item"><img src="./event empty hall1.jpg" alt=""></div>
+      <div class="carousel-item active"><img src="./executive 1.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./executive premium 1.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./king suite 1.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./luxury 1.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./executive 2.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./king suite 2.jpg" alt=""></div>
+      <div class="carousel-item"><img src="./executive premium 2.jpg" alt=""></div>
     </div>
 
     <!-- Number Navigation -->

@@ -386,7 +386,7 @@ body {
   align-items: center;
   gap: 50px;
   color: #fff;
-  background: url("./swimming\ pool.jpg") center/cover no-repeat;
+  background: url("./executive\ 2.jpg") center/cover no-repeat;
   clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%); /* slanted top */
   clip-path: polygon(0 8%, 100% 0, 100% 90%, 0 100%); /* slanted bottom */
   min-height: 80vh;
