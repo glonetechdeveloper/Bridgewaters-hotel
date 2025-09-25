@@ -237,8 +237,12 @@ body {
 
 
 /* Footer */
+#sha{
+  height: 100px;
+  width: 200px;
+}
 .footer {
-  background: #111; /* dark background */
+  background: #2c2c2c; /* dark background */
   color: #fff;
   padding: 60px 40px;
   font-family: Arial, sans-serif;
@@ -283,7 +287,7 @@ body {
 .footer-col h3 {
   font-size: 1.2rem;
   margin-bottom: 15px;
-  color: #d4af37; /* gold-like color */
+  color: #fff; /* gold-like color */
   font-weight: 600;
 }
 
@@ -302,7 +306,7 @@ body {
   transition: color 0.3s ease;
 }
 .footer-links a:hover {
-  color: #d4af37;
+  color: #3a5ab2;
 }
 
 /* Contact Info */
