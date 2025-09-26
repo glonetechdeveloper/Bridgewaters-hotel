@@ -504,10 +504,10 @@ body {
 }
 
 .feature-events .feature-content {
-  order: 1;
+  order: 2;
 }
 .feature-events .feature-carousel {
-  order: 2;
+  order: 1;
 }
 
 /* Carousel */
