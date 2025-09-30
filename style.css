@@ -160,6 +160,15 @@ body {
   text-align: center;
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); /* slanted bottom */
+   transition: opacity 1s ease-in-out;
+  animation: bwZoom 12s ease-in-out infinite;
+}
+
+
+@keyframes bwZoom {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
 .hero::after {
