@@ -762,3 +762,22 @@ body {
     text-align: center;
   }
 }
+
+
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #0a58ca; /* maroon from your logo */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff; /* gold from your logo */
+  transform: scale(1.2);
+}
